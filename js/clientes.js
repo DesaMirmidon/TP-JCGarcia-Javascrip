@@ -1,3 +1,4 @@
+/*
 let nombre ="";
 let cuit="";
 let email="";
@@ -18,3 +19,4 @@ for(const cliente of clientes)
     cliente.nombres;
     console.log(cliente.nombres);
 }
+*/
