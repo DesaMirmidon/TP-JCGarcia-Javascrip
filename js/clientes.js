@@ -1,4 +1,4 @@
-/*
+
 let nombre ="";
 let cuit="";
 let email="";
@@ -11,12 +11,13 @@ class  Cliente {
     }
 }
 
-const clientes = [];
-clientes.push(new Cliente("juan carlos","20247561448","lic.jcgarcia@gmail.com"));
+function guardarCliente() {
+    let nombre = document.getElementById("ingresoNombre").value;
+    let cuit = document.getElementById("cuitcliente").value;
+    let email=document.getElementById("email").value;
+   
+    const clientes = [];
+    clientes.push(new Cliente(nombre,cuit,email));
+     console.log(clientes[0].email);  
+}   
 
-for(const cliente of clientes)
-{
-    cliente.nombres;
-    console.log(cliente.nombres);
-}
-*/
