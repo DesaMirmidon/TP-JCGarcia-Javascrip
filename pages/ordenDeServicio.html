@@ -19,16 +19,16 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse">
+              <div class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/clientes.html">clientes</a>
+                    <a class="nav-link" href="./clientes.html">clientes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/vehiculo.html">Vehiculos</a>
+                    <a class="nav-link" href="./vehiculo.html">Vehiculos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./ordenDeServicio.html">Orden de servicio</a>
@@ -37,10 +37,10 @@
                     <a class="nav-link" href="./historiaClinica.html">Historia clinica</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a>
+                    <a class="nav-link" href="./nosotros.html">Sobre Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                    <a class="nav-link" href="./contactos.html">Contactos</a>
                   </li>
                 </ul>
                <!-- <a href="www.facebook.com"><i class="bi bi-facebook"></i></a>-->
@@ -50,7 +50,35 @@
     
 <!-- comiena el contenido -->
     <section>
-            
+        <div class="container">     
+            <form action="">
+                <form >
+                    <div class="col-md-6">
+                      <label for="inputMatricula" class="form-label">Matricula</label>
+                      <input type="text" class="form-control" id="inputMatricula">
+                    </div>
+    
+                    <div class="col-md-6">
+                        <label for="inputKilometros" class="form-label">kilometros</label>
+                        <input type="text" class="form-control" id="inputkilometros" placeholder="">
+                      </div>
+
+                    <div class="col-md-6">
+                      <label for="inputModelo" class="form-label">Orden de Servicio</label>
+                      <input type="text" class="form-control" id="inputModelo">
+                    </div>
+    
+                    <div class="col-md-6">
+                        <label for="inputProximoServicio" class="form-label">Proximo Servicio</label>
+                        <input type="text" class="form-control" id="inputProximoServicio">
+                      </div>
+    
+                    <div class="col-md-6">
+                      <button type="submit" class="btn btn-primary">Aceptar</button>
+                    </div>
+                  </form>
+            </form>
+          </div>    
     </section>
  <!--comienza el footer-->   
     <footer>
