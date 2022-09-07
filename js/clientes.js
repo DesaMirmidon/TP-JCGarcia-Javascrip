@@ -18,6 +18,13 @@ function guardarCliente() {
    
     const clientes = [];
     clientes.push(new Cliente(nombre,cuit,email));
-     console.log(clientes[0].email);  
+    console.log(clientes[0].email);
+
+    let mensaje= document.getElementById("mensaje");
+  
+    mensaje.innerHTML=alert("su registro se ha guardado correctamente!.")
+
+      
 }   
+
 
